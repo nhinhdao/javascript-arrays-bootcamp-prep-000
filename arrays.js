@@ -42,7 +42,8 @@ function destructivelyRemoveElementFromEndOfArray(array){
 function removeElementFromEndOfArray(array){
    var newarray4 = array.slice(0,array.length - 1);
    return newarray4;
-// }
+}
+
 // // ["snickers", "hundred grand", "kitkat", "skittles"];
 // console.log(1, addElementToBeginningOfArray(chocolateBars, "nhinh"));
 // console.log(2, destructivelyAddElementToBeginningOfArray(chocolateBars, "nhinh"));
